@@ -15,7 +15,7 @@ def vcode = (int) (((new Date().getTime() / 1000) - 1546297200) / 10)
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion
-
+    namespace = "org.jitsi.meet"
     packagingOptions {
         exclude 'lib/*/libhermes*.so'
     }
